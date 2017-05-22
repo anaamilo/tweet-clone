@@ -45,7 +45,7 @@ It was March, 21st. **We will clone this first tweet from Jack's account to lear
 
 ```
 git add .
-git commit -m"done"
+git commit -m "done"
 git push origin master
 ```
 

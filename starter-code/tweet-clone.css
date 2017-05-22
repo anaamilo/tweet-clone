@@ -1,0 +1,140 @@
+*:focus {
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:active, a:visited {
+  color: inherit;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(244, 248, 249);
+}
+
+.container {
+  width: 500px;
+}
+
+.tweet {
+  border: 1px solid rgb(225, 232, 237);
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 20px 15px;
+  font-size: 14px;
+}
+
+.tweet_account:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tweet_account_img {
+  float: left;
+}
+
+.tweet_account_user {
+  margin-left: 15px;
+  float: left;
+}
+
+.tweet_account_user_fullname {
+  vertical-align: top;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.tweet_account_user_badge {
+  display: inline-block;
+}
+
+.tweet_account_user_nickname {
+  color: rgb(104, 109, 129);
+}
+
+.tweet_account_user_nickname:before {
+  content: "@";
+  display: inline-block;
+}
+
+.tweet_account_follow {
+  border: 1px solid rgb(85, 172, 238);
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(85, 172, 238);
+  font-weight: bold;
+  font-size: 14px;
+  padding: 7px 13px;
+  float: right;
+}
+
+.tweet_account_follow > img {
+  vertical-align: bottom;
+}
+
+.tweet_account_follow:hover {
+  background-color: rgba(59,148,217,.1);
+  cursor: pointer;
+}
+
+.tweet_content {
+  margin-top: 15px;
+}
+
+.tweet_content_msg {
+  font-size: 16px;
+}
+
+.tweet_content_date {
+  margin-top: 5px;
+  color: rgb(101, 116, 127);
+}
+
+.tweet_actions {
+  margin-top: 15px;
+}
+
+.tweet_actions > a {
+  text-decoration: none;
+  color: rgb(105, 120, 130);
+}
+
+.tweet_actions-reply:before,
+.tweet_actions-rt:before,
+.tweet_actions-fav:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -2px;
+}
+
+.tweet_actions-rt:before,
+.tweet_actions-fav:before {
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.tweet_actions-reply:before {
+  background-image: url("img/reply.jpg");
+  background-size: 15px 11px;
+  width: 15px;
+  height: 11px;
+}
+
+.tweet_actions-rt:before {
+  background-image: url("img/retweet.jpg");
+  background-size: 18px 11px;
+  width: 18px;
+  height: 11px;
+}
+
+.tweet_actions-fav:before {
+  background-image: url("img/favorite.jpg");
+  background-size: 13px 12px;
+  width: 13px;
+  height: 12px;
+}
