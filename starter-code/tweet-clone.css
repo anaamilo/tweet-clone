@@ -12,7 +12,7 @@ a:link, a:active, a:visited {
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-  background-color: rgb(244, 248, 249);
+  background-color: lightgray;
 }
 
 .container {
